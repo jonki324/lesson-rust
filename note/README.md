@@ -39,3 +39,14 @@ Hello, world!
 ```bash
 $ cargo clean
 ```
+
+ドキュメント生成
+```bash
+$ cargo doc --open
+    Checking libc v0.2.105
+    Checking rand v0.4.6
+    Checking rand v0.3.23
+ Documenting guessing_game v0.1.0 (/Users/dev/lessons/lesson-rust/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.21s
+     Opening /Users/dev/lessons/lesson-rust/guessing_game/target/doc/guessing_game/index.html
+```
